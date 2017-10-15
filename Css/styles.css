@@ -17,13 +17,19 @@ body.contacts{
   height: 100%;
 }
 body.pictures{
-  background-image: url("../Images/trial.jpg");
+  background-5image: url("../Images/trial.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 body.media{
   background-image: url("../Images/trial.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+body.travel{
+  background-image: url("../Images/milk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
