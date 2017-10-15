@@ -1,45 +1,64 @@
 body.index{
-
   background-image: url("../Images/u.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+
 }
 body.about{
-
   background-image: url("../Images/elephants.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
+body.contacts{
+  background-image: url("../Images/soft.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+body.pictures{
+  background-image: url("../Images/trial.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
 h1 {
   text-align: center;
+
   }
-  .class{
-    font-weight: bolder;
+.class{
+  font-weight: bolder;
   }
 p {
   font-family: sans-serif;
   font-size: 17px;
-
 }
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  color: #f38ba6;
 
+  margin-top: 10px;
   }
 li{
   float :left;
-
+  display: inline;
 }
 li a{
   display: block;
   color: 9AE665;
   text-align: center;
-  padding: 14px 16px;
+  font-weight: 600;
+  padding-right: 200px;
   text-decoration: none;
 }
 li a :hover:not(.active){
   background-color: #111;
+}
+
+
+.floated_img
+{
+    float: left;
 }
