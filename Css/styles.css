@@ -3,7 +3,6 @@ body.index{
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-
 }
 body.about{
   background-image: url("../Images/elephants.jpeg");
@@ -22,10 +21,15 @@ body.pictures{
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-
-h1 {
+}
+body.media{
+  background-image: url("../Images/trial.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+ h1 {
   text-align: center;
-
   }
 .class{
   font-weight: bolder;
@@ -35,30 +39,19 @@ p {
   font-size: 17px;
 }
 ul{
+  display: inline;
   list-style-type: none;
   margin: 0;
   padding: 0;
-
-  margin-top: 10px;
+}
+li {
+    display: inline;
+    padding-right: 200px;
   }
-li{
-  float :left;
-  display: inline;
+li a:hover {
+    background-color: #F38BA7;
 }
-li a{
-  display: block;
-  color: 9AE665;
-  text-align: center;
-  font-weight: 600;
-  padding-right: 200px;
-  text-decoration: none;
-}
-li a :hover:not(.active){
-  background-color: #111;
-}
-
-
 .floated_img
 {
-    float: left;
+  float: left;
 }
