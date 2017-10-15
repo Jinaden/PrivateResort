@@ -1,17 +1,32 @@
+body.index{
+
+  background-image: url("../Images/u.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body.about{
+
+  background-image: url("../Images/elephants.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   text-align: center;
-  color: #f38ba6
-}
+  }
+  .class{
+    font-weight: bolder;
+  }
 p {
   font-family: sans-serif;
   font-size: 17px;
+
 }
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: 9AE665;
+  color: #f38ba6;
 
   }
 li{

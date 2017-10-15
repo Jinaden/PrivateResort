@@ -6,10 +6,7 @@ img{
 }
 body{
 
-  background-image: url("/home/james/Desktop/MoringaProjects/PrivateResort/Images/u.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+background-color: LightGreen;
 }
 .pics p{
     margin-left: 200px;
@@ -26,7 +23,7 @@ h1 {
   }
 .second{
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -38,8 +35,7 @@ h1 {
 }
 .fourth{
   position: absolute;
-  top: 150%;
+  top: 155%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:green;
 }
